@@ -1,6 +1,6 @@
 
 
-##  Chat Room
+##  Chat Room (CN Project)
 
 ### Overview
 A lightweight chat room application written in **C++**, using **Boost.Asio** for asynchronous communication and **multi-threading** for handling multiple clients concurrently.
@@ -21,7 +21,7 @@ A lightweight chat room application written in **C++**, using **Boost.Asio** for
 
 ---
 
-##  Web Server (multi-threaded-proxy-server)
+##  Web Server (OS Project-multi-threaded-proxy-server) 
 
 ### Overview
 A **C-based proxy server** that supports both **with and without cache** modes. It leverages **threads, semaphores, and locks** to handle concurrent requests, while using an **LRU cache** to optimize response times.
