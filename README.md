@@ -9,7 +9,6 @@ A lightweight chat room application written in **C++**, using **Boost.Asio** for
 - **Asynchronous I/O** – Non-blocking message handling with Boost.Asio  
 - **Multi-threading** – Concurrent client connections  
 - **Room Management** – Add/remove clients & broadcast messages  
-- **Message Handling** – Encode, decode, and deliver chat messages  
 
 ### Components
 - **Session** – Manages communication for each client  
@@ -42,6 +41,9 @@ A **C-based proxy server** that supports both **with and without cache** modes. 
 ### Limitations
 - Fixed cache size (large sites may not be stored)  
 - Same URL with multiple clients can cause cache inconsistency  
+
+
+In the given picture, you can see that the first time it says **"URL not found"**, but when the same request is hit again, it says **"Data retrieved from the cache"**.
 
 <img width="1314" height="440" alt="Screenshot 2025-08-19 175513" src="https://github.com/user-attachments/assets/0d6643f3-f014-4f1e-ae79-c12a42803b10" />
 <img width="1327" height="424" alt="Screenshot 2025-08-19 175549" src="https://github.com/user-attachments/assets/a9fbea24-26e8-455d-8f4f-5967106aa736" />
